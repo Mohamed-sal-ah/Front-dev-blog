@@ -1,0 +1,59 @@
+.container {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    max-width: 50em;
+}
+
+.container main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 85%;
+}
+
+.container main * {
+    margin: 0;
+}
+
+.container main h1 {
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.container img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.container h2 {
+    font-size: 2.3rem;
+    font-family: "Ubuntu";
+    align-self: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.container p {
+    font-size: 1rem;
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 680px) {
+    .container h1 {
+        font-size: 3.2rem;
+    }
+
+    .container h2 {
+        font-size: 2.5rem;
+    }
+    .container p {
+        font-size: 1rem;
+    }
+}
