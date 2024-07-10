@@ -66,16 +66,11 @@ p {
   border-radius: 2px;
   width: fit-content;
   text-transform: uppercase;
-  background-color: #d5d5d5;
+  background-color: #a7bbdc;
   font-family: "Poppins";
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body.dark {
+  color: white;
+  background: black;
 }
